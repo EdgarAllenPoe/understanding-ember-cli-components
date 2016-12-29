@@ -1,4 +1,4 @@
-# clean-slate
+# Controllers in ember-cli and executing js after the page loads.
 
 An excercise in understanding the path that information takes in ember-cli before it gets rendered. With a special note about how to get those nasty javascript libraries to load after the page renders. Using Ember 2.10.
 
