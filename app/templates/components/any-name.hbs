@@ -1,0 +1,25 @@
+<h2>This line of text just came from 'app/templates/components/any-name.hbs' </h2>
+<h2>Its corresponding component is 'app/components/any-name.js' It looks like this:</h2>
+<pre>
+import Ember from 'ember';
+
+export default Ember.Component.extend({
+
+didRender() {
+   
+         $.getScript('after-page-load.js');
+   }
+
+});
+</pre>
+
+<h2>AFTER the page is loaded the above code calls  'public/after-pageload.js' that looks like this:</h2>
+<pre>
+  $("#htmlInsertedHere").html("I just came from 'public/after-page-load.js");
+</pre>
+
+<h2>the above code inserts the info here between these two div tags:</h2>
+&lt;div id="htmlInsertedHere"&gt;&lt;/div&gt;
+<h2>like this:</h2>
+<div id="htmlInsertedHere"></div>
+{{yield}}
