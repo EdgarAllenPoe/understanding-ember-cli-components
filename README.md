@@ -1,7 +1,6 @@
 # clean-slate
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+An excercise in understanding the path that information takes in ember-cli before it gets rendered. With a special note about how to get those nasty javascript libraries to load after the page renders. Using Ember 2.10.
 
 ## Prerequisites
 
